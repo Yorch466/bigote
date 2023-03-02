@@ -1,0 +1,49 @@
+.ojos{
+    width: 100px;
+    height: 100px;
+    left: 90px;
+    border-radius: 25%;
+    position: absolute;
+    color: rgb(11, 174, 114);
+    box-shadow: 
+    200px 40px 0 0 currentColor,
+    450px 40px 0 0 currentColor;
+}
+.Moustache {
+    width: 180px;
+    height: 180px;
+    left: 100px;
+    border-radius: 50%;
+    position:absolute;
+    color: rgb(87, 1, 1);
+    box-shadow: 
+        200px 240px 0 0 currentColor,
+        350px 240px 0 0 currentColor;
+}
+
+.Moustache::before{
+    content: " ";
+    position: absolute;
+    left: 80px;
+    top: 120px;
+    width: 210px;
+    height: 120px;
+    border-bottom: solid 180px currentColor;
+    border-radius: 0 0 0 100%;
+    transform: rotate(-40deg);
+    transform-origin: right 210px;
+}
+
+.Moustache::after{
+    content: " ";
+    position: absolute;
+    left: 440px;
+    top: 120px;
+    width: 210px;
+    height: 120px;
+    border-bottom: solid 180px currentColor;
+    border-radius: 0 0 100% 0;
+    transform: rotate(40deg);
+    transform-origin: left 210px;
+}
+
