@@ -11,7 +11,7 @@
     color: rgb(108, 4, 4);
     transform: rotate(-5deg);
     box-shadow: 
-    400px 20px 0 0 currentColor;
+    400px 30px 0 0 currentColor;
 }
 .cejaizq{
     width: 200px;
@@ -103,5 +103,5 @@
     position: absolute;
     color: black;
     box-shadow: 
-    400px  30px 425px 0 0 currentColor;
+    480px  420px 0 0 currentColor;
 }
