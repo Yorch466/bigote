@@ -1,21 +1,70 @@
+.background{
+    background-color: white;
+}
+.cejasder{
+    width: 200px;
+    height: 20px;
+    left: 120px;
+    top: 20px;
+    border-radius: 20%;
+    position: absolute;
+    color: rgb(108, 4, 4);
+    transform: rotate(-5deg);
+    box-shadow: 
+    250px 20px 0 0 currentColor;
+}
+.cejaizq{
+    width: 200px;
+    height: 20px;
+    left: 410px;
+    top: 20px;
+    border-radius: 20%;
+    position: absolute;
+    color: rgb(108, 4, 4);
+    box-shadow: 
+    250px 20px 0 0 currentColor;
+}
 .ojos{
-    width: 100px;
-    height: 100px;
-    left: 90px;
+    width: 80px;
+    height: 80px;
+    left: 250px;
+    top: 50px;
     border-radius: 25%;
     position: absolute;
-    color: rgb(11, 174, 114);
+    color: rgb(0, 0, 0);
     box-shadow: 
     200px 40px 0 0 currentColor,
     450px 40px 0 0 currentColor;
 }
+.iris{
+    width: 40px;
+    height: 40px;
+    left: 120px;
+    border-radius: 35%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    box-shadow: 
+    100px 80px 0 0 currentColor,
+    350px 80px 0 0 currentColor;
+}
+.nariz{
+    width: 50px;
+    height: 50px;
+    left: 250px;
+    top: 60px;
+    border-radius: 10%;
+    position: absolute;
+    color: beige;
+    box-shadow: 
+    340px 120px 0 0 currentColor;
+}
 .Moustache {
     width: 180px;
     height: 180px;
-    left: 100px;
+    left: 250px;
     border-radius: 50%;
     position:absolute;
-    color: rgb(87, 1, 1);
+    color: rgb(108, 4, 4);
     box-shadow: 
         200px 240px 0 0 currentColor,
         350px 240px 0 0 currentColor;
@@ -46,4 +95,13 @@
     transform: rotate(40deg);
     transform-origin: left 210px;
 }
-
+.boca{
+    width: 120px;
+    height: 50px;
+    left: 225px;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    box-shadow: 
+    330px 425px 0 0 currentColor;
+}
